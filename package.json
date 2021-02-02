@@ -30,7 +30,7 @@
   "keywords": [
     "wechat-wmp",
     "微信小程序",
-    "wechat"    
+    "wechat"
   ],
   "engines": {
     "node": ">=8.0.0"
