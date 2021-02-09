@@ -1,7 +1,7 @@
 {
-  "name": "wechat-wmp",
+  "name": "we-mp",
   "version": "0.0.1",
-  "description": "wechat-wmp",
+  "description": "we-mp",
   "scripts": {
     "build": "babel lib -d dist",
     "start": "npm run build && node dist/index.js",
@@ -9,33 +9,39 @@
     "test": "mocha --require @babel/register"
   },
   "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "dependencies": {
     "bluebird": "^3.7.2",
     "request": "^2.88.2"
   },
   "devDependencies": {
-    "@babel/cli": "^7.10.1",
-    "@babel/core": "^7.10.1",
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
     "@babel/plugin-syntax-dynamic-import": "^7.8.3",
-    "@babel/plugin-transform-async-to-generator": "^7.10.1",
-    "@babel/preset-env": "^7.10.1",
-    "@babel/register": "^7.10.1",
+    "@babel/plugin-transform-async-to-generator": "^7.12.1",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/register": "^7.12.10",
     "mocha": "^6.2.3",
-    "nodemon": "^1.19.4"
+    "nodemon": "^2.0.7"
   },
-  "files": [
-    "lib"
-  ],
-  "repository": {},
   "keywords": [
-    "wechat-wmp",
+    "we-mp",
     "微信小程序",
     "wechat"
   ],
   "engines": {
     "node": ">=8.0.0"
   },
-  "bugs": {},
   "author": "ycl",
+  "homepage": "https://github.com/silencelog/lono-nacos",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:silencelog/lono-nacos.git"
+  },
+  "bugs": {
+    "url": "https://github.com/silencelog/lono-nacos/issues"
+  },
   "license": "MIT"
 }
